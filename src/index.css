@@ -61,11 +61,36 @@ header {
   max-width: 150px;
 }
 
+.listCardTitle {
+  width: 350px;
+}
+
+.listCardPrice {
+  margin-right: 10px;
+}
+
 .link {
   padding: 10px;
   border-radius: 5px;
 }
 
-.active{
+.active {
   background-color: #e6e6e6;
+  color: #000000!important;
 }
+
+.removeBtn {
+  background-color: #ac0d14 !important;
+}
+
+.productCard button{
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #fff;
+  background-color: #1D4ED8;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
