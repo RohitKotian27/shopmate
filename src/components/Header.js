@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import Logo from '../assets/shopping-cart-logo.png';
 export const Header = () => {
-    const [darkMode, setDarkMode] = useState(JSON.parse(localStorage.getItem('darkMode')) || false);
+    const [darkMode, setDarkMode] = useState(JSON.parse(localStorage.getItem('dark')) || false);
     useEffect(() => {
         JSON.stringify(localStorage.setItem('dark', darkMode));
         if (darkMode) {
